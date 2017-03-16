@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter1ManageProgramFlow", "Chapter1ManageProgramFlow\Chapter1ManageProgramFlow.csproj", "{A89C6EDE-D03C-469A-AC99-A212C0F874E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1-Threads01", "Chapter1ManageProgramFlow\Ch1-Threads01.csproj", "{A89C6EDE-D03C-469A-AC99-A212C0F874E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

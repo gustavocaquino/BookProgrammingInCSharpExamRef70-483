@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A89C6EDE-D03C-469A-AC99-A212C0F874E6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Chapter1ManageProgramFlow</RootNamespace>
-    <AssemblyName>Chapter1ManageProgramFlow</AssemblyName>
+    <RootNamespace>Ch1Threads01</RootNamespace>
+    <AssemblyName>Ch1Threads01</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
