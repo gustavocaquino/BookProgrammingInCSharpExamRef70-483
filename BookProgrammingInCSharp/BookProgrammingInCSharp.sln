@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1-Threads01", "Chapter1ManageProgramFlow\Ch1-Threads01.csproj", "{A89C6EDE-D03C-469A-AC99-A212C0F874E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1-Threads02", "Ch1-Threads02\Ch1-Threads02.csproj", "{CF2F188F-AD6D-4227-9CEF-2D47108A3C97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A89C6EDE-D03C-469A-AC99-A212C0F874E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A89C6EDE-D03C-469A-AC99-A212C0F874E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A89C6EDE-D03C-469A-AC99-A212C0F874E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2F188F-AD6D-4227-9CEF-2D47108A3C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2F188F-AD6D-4227-9CEF-2D47108A3C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2F188F-AD6D-4227-9CEF-2D47108A3C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2F188F-AD6D-4227-9CEF-2D47108A3C97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
