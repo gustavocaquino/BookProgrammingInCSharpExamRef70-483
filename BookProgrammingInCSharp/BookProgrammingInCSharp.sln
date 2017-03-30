@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1-Threads01", "Chapter1ManageProgramFlow\Ch1-Threads01.csproj", "{A89C6EDE-D03C-469A-AC99-A212C0F874E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1.1-Threads01", "Chapter1ManageProgramFlow\Ch1.1-Threads01.csproj", "{A89C6EDE-D03C-469A-AC99-A212C0F874E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1-Threads02", "Ch1-Threads02\Ch1-Threads02.csproj", "{CF2F188F-AD6D-4227-9CEF-2D47108A3C97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1.1-Threads02", "Ch1-Threads02\Ch1.1-Threads02.csproj", "{CF2F188F-AD6D-4227-9CEF-2D47108A3C97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1.1-Tasks01", "Ch1.1-Tasks01\Ch1.1-Tasks01.csproj", "{52953B52-369E-42FF-92B1-5D4A2AB4BE6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CF2F188F-AD6D-4227-9CEF-2D47108A3C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF2F188F-AD6D-4227-9CEF-2D47108A3C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF2F188F-AD6D-4227-9CEF-2D47108A3C97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52953B52-369E-42FF-92B1-5D4A2AB4BE6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52953B52-369E-42FF-92B1-5D4A2AB4BE6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52953B52-369E-42FF-92B1-5D4A2AB4BE6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52953B52-369E-42FF-92B1-5D4A2AB4BE6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
