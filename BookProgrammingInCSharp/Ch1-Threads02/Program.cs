@@ -8,11 +8,21 @@
     class Program
     {
         // Propriedade única para cada Thread com ThreadStaticAttribute.
+        // Pg 7.
         [ThreadStatic]
         static int _campo;
 
+        // Pg 8.
+        static ThreadLocal<int> _campoThreadLocal =
+            new ThreadLocal<int>(() =>
+            {
+                return CurrentThread.ManagedThreadId;
+            });
+
         static void Main(string[] args)
         {
+            goto Inicio;
+
             // Exemplo de cancelamento de Thread com variável compartilhada.
             var parado = false;
 
@@ -54,6 +64,35 @@
                     WriteLine($"Thread B: {_campo}");
                 }
             }).Start();
+
+            // ThreadLocal<T> = Informação local inicializada em cada Thread.
+            // Pg 8. 
+            new Thread(() =>
+            {
+                for (int x = 0; x < _campoThreadLocal.Value; x++)
+                {
+                    WriteLine($"Thread A: {x}");
+                }
+            }).Start();
+
+            new Thread(() =>
+            {
+                for (int x = 0; x < _campoThreadLocal.Value; x++)
+                {
+                    WriteLine($"Thread B: {x}");
+                }
+            }).Start();
+
+            // ThreadPool - Pool de threads gerenciadas para execuções de tasks, assincronismo e etc.
+            // A ThreadPool reutiliza as Threads facilitando o gerenciamento da mesma pela aplicação.
+            // Pg. 9
+
+            Inicio:
+
+            ThreadPool.QueueUserWorkItem((callBack) =>
+            {
+                WriteLine("Rodando a partir da ThreadPool");
+            });
 
             ReadKey();
         }
